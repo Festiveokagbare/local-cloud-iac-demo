@@ -1,0 +1,49 @@
+# ========================
+# Terraform
+# ========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.backup
+
+# Terraform lock info (optional to keep)
+# .terraform.lock.hcl
+
+# ========================
+# AWS / LocalStack
+# ========================
+.aws/
+localstack-data/
+.env
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+log.txt
+
+# ========================
+# OS / Editor
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ========================
+# Docker
+# ========================
+docker-data/
+*.pid
+
+# ========================
+# Build / Cache
+# ========================
+node_modules/
+dist/
+build/
+.terraform.lock.hcl
+localstack
