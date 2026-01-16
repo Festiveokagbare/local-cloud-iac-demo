@@ -50,7 +50,7 @@ Install the following:
 * Docker Compose
 * Terraform
 * AWS CLI
-```
+
 
 How to Run the Project
 1️⃣ Start LocalStack and NGINX
