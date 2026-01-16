@@ -53,6 +53,7 @@ Install the following:
 
 
 How to Run the Project
+
 1️⃣ Start LocalStack and NGINX
 ```
 docker-compose up -d
