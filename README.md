@@ -29,7 +29,7 @@ flowchart LR
     Dev -->|AWS CLI| LS
 
 ```
-Technologies Used:
+## Technologies Used:
 * Terraform
 * LocalStack
 * AWS CLI
@@ -37,14 +37,14 @@ Technologies Used:
 * NGINX
 ```
 ```
-Project Features:
+## Project Features:
 * Provision S3 bucket using Terraform
 * Simulate AWS locally with LocalStack
 * Upload logs using AWS CLI
 * Run NGINX locally with Docker Compose
 * Output useful Terraform values
 
-Prerequisites:
+## Prerequisites:
 Install the following:
 * Docker
 * Docker Compose
@@ -52,7 +52,7 @@ Install the following:
 * AWS CLI
 
 
-How to Run the Project
+## How to Run the Project
 
 1️⃣ Start LocalStack and NGINX
 ```
@@ -96,7 +96,7 @@ Open your browser:
 http://localhost:8080
 ```
 
-🎯 DevOps Use Case
+## 🎯 DevOps Use Case
 ```
 * This project simulates real-world DevOps workflows:
 * Infrastructure as Code
